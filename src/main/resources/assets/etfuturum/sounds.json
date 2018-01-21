@@ -1,6 +1,6 @@
 {
   "mob.rabbit.hop": {
-    "category": "neutral",
+  "category": "neutral",
     "sounds": [
       "mob/rabbit/hop1",
       "mob/rabbit/hop2",
@@ -9,7 +9,7 @@
     ]
   },
   "mob.rabbit.hurt": {
-    "category": "neutral",
+  "category": "neutral",
     "sounds": [
       "mob/rabbit/hurt1",
       "mob/rabbit/hurt2",
@@ -18,7 +18,7 @@
     ]
   },
   "mob.rabbit.idle": {
-    "category": "neutral",
+  "category": "neutral",
     "sounds": [
       "mob/rabbit/idle1",
       "mob/rabbit/idle2",
@@ -27,27 +27,27 @@
     ]
   },
   "mob.rabbit.death": {
-    "category": "neutral",
+  "category": "neutral",
     "sounds": [
       "mob/rabbit/bunnymurder"
     ]
   },
   "mob.husk.death": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/husk/death1",
 	  "mob/husk/death2"
     ]
   },
   "mob.husk.hurt": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/husk/hurt1",
 	  "mob/husk/hurt2"
     ]
   },
   "mob.husk.idle": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/husk/idle1",
 	  "mob/husk/idle2",
@@ -55,7 +55,7 @@
     ]
   },
   "mob.husk.step": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/husk/step1",
 	  "mob/husk/step2",
@@ -65,14 +65,14 @@
     ]
   },
   "mob.stray.death": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/stray/death1",
 	  "mob/stray/death2"
     ]
   },
   "mob.stray.hurt": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/stray/hurt1",
 	  "mob/stray/hurt2",
@@ -81,7 +81,7 @@
     ]
   },
   "mob.stray.idle": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/stray/idle1",
 	  "mob/stray/idle2",
@@ -90,7 +90,7 @@
     ]
   },
   "mob.stray.step": {
-    "category": "hostile",
+  "category": "hostile",
     "sounds": [
       "mob/stray/step1",
 	  "mob/stray/step2",
@@ -98,8 +98,95 @@
 	  "mob/stray/step4"
     ]
   },
+  "elder_death":{
+	"category": "hostile",
+    "sounds": [
+       "mob/guardian/elder_death"
+    ]
+  },
+  "elder_hit":{
+  "category": "hostile",
+    "sounds": [
+       "mob/guardian/elder_hit1",
+       "mob/guardian/elder_hit2",
+       "mob/guardian/elder_hit3",
+       "mob/guardian/elder_hit4"
+    ]
+  },
+  "elder_idle":{
+  "category": "hostile",
+    "sounds": [
+       "mob/guardian/elder_idle1",
+       "mob/guardian/elder_idle2",
+       "mob/guardian/elder_idle3",
+       "mob/guardian/elder_idle4"
+    ]
+  },
+  "flop":{
+  "category": "hostile",
+    "sounds": [
+       "mob/guardian/flop1",
+       "mob/guardian/flop2",
+       "mob/guardian/flop3",
+       "mob/guardian/flop4"
+    ]
+  },
+  "guardian_attack_loop":{
+    "category": "hostile",
+    "sounds": [
+       "mob/guardian/attack_loop"
+    ]
+  },
+  "guardian_death":{
+    "category": "hostile",
+    "sounds": [
+       "mob/guardian/guardian_death"
+    ]
+  },
+  "guardian_hit":{
+    "category": "hostile",
+    "sounds": [
+       "mob/guardian/guardian_hit1",
+       "mob/guardian/guardian_hit2",
+       "mob/guardian/guardian_hit3",
+       "mob/guardian/guardian_hit4"
+    ]
+  },
+  "guardian_idle":{
+    "category": "hostile",
+    "sounds": [
+      "mob/guardian/guardian_idle1",
+       "mob/guardian/guardian_idle2",
+       "mob/guardian/guardian_idle3",
+       "mob/guardian/guardian_idle4"
+    ]
+  },
+  "land_death":{
+    "category": "hostile",
+    "sounds": [
+      "mob/guardian/land_death"
+    ]
+  },
+  "land_hit":{
+    "category": "hostile",
+    "sounds": [
+		"mob/guardian/land_hit1",
+		"mob/guardian/land_hit2",
+		"mob/guardian/land_hit3",
+		"mob/guardian/land_hit4"
+    ]
+  },
+  "land_idle":{
+    "category": "hostile",
+    "sounds": [
+		"mob/guardian/land_idle1",
+		"mob/guardian/land_idle2",
+		"mob/guardian/land_idle3",
+		"mob/guardian/land_idle4"
+    ]
+  },
   "block.brewing_stand.brew": {
-    "category": "block",
+  "category": "block",
     "sounds": [
       "block/brewing_stand/brew1",
       "block/brewing_stand/brew2"

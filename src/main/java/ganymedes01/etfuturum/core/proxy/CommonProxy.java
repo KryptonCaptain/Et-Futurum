@@ -98,14 +98,14 @@ public class CommonProxy implements IGuiHandler {
 		if (EtFuturum.enableHusk) {
 			ModEntityList.registerEntity(EntityHusk.class, "husk", id++, EtFuturum.instance, 80, 3, true, 7828833, 14735761);
 			
-			EntityRegistry.addSpawn(EntityHusk.class, 40, 4, 4, EnumCreatureType.monster, new BiomeGenBase[] { BiomeGenBase.desert });
-		    EntityRegistry.addSpawn(EntityHusk.class, 40, 4, 4, EnumCreatureType.creature, new BiomeGenBase[] { BiomeGenBase.desertHills });
+			EntityRegistry.addSpawn(EntityHusk.class, 60, 4, 20, EnumCreatureType.monster, new BiomeGenBase[] { BiomeGenBase.desert });
+		    EntityRegistry.addSpawn(EntityHusk.class, 60, 4, 20, EnumCreatureType.creature, new BiomeGenBase[] { BiomeGenBase.desertHills });
 		}
 		if (EtFuturum.enableStray) {
 			ModEntityList.registerEntity(EntityStray.class, "stray", id++, EtFuturum.instance, 80, 3, true, 6387576, 15133418);
 			
-			EntityRegistry.addSpawn((Class)EntityStray.class, 40, 4, 4, EnumCreatureType.monster, new BiomeGenBase[] { BiomeGenBase.icePlains });
-	        EntityRegistry.addSpawn((Class)EntityStray.class, 40, 4, 4, EnumCreatureType.creature, new BiomeGenBase[] { BiomeGenBase.iceMountains });
+			EntityRegistry.addSpawn((Class)EntityStray.class, 60, 4, 20, EnumCreatureType.monster, new BiomeGenBase[] { BiomeGenBase.icePlains });
+	        EntityRegistry.addSpawn((Class)EntityStray.class, 60, 4, 20, EnumCreatureType.creature, new BiomeGenBase[] { BiomeGenBase.iceMountains });
 		}
 		
 		
